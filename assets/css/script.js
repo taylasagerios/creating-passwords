@@ -39,3 +39,5 @@ function generatePassword(){
     } 
     return pw     
 }
+
+var generateBtn = document.querySelector("#generate");
