@@ -13,4 +13,17 @@ function generatePassword(){
     console.log (specialcharacters)  
 
     var charArray = []
+
+    if (lowercase == true ){
+        charArray += "abcdefghijklmnopqrstuvwxyz"
+       }
+       if (uppercase== true ){
+        charArray += "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+       } 
+       if (numeric == true ){
+        charArray += "0123456789"
+       }
+       if (specialcharacters == true ){
+        charArray += "0!@#$%^&*"
+       }
 }
