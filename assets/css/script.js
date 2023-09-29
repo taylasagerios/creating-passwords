@@ -49,3 +49,5 @@ function writePassword() {
     passwordText.value = password;
   
   }
+
+  generateBtn.addEventListener("click", writePassword);
