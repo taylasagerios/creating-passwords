@@ -26,4 +26,6 @@ function generatePassword(){
        if (specialcharacters == true ){
         charArray += "0!@#$%^&*"
        }
+
+    var pw = ""   
 }
