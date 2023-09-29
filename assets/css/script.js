@@ -11,4 +11,6 @@ function generatePassword(){
     console.log (numeric)
     let specialcharacters= confirm("do you want to add a special character");
     console.log (specialcharacters)  
+
+    var charArray = []
 }
