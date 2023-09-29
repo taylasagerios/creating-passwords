@@ -27,5 +27,14 @@ function generatePassword(){
         charArray += "0!@#$%^&*"
        }
 
-    var pw = ""   
+    var pw = "" 
+    for (var x = 0; x < passwordLength; x++){
+        console.log (charArray)
+        var rannum = Math.random();
+        console.log (rannum)
+        var ranidx = rannum * charArray.length
+        console.log (ranidx)
+        var rouranidx = Math.floor(ranidx)
+        pw += charArray [rouranidx] 
+    }      
 }
