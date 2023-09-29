@@ -36,5 +36,6 @@ function generatePassword(){
         console.log (ranidx)
         var rouranidx = Math.floor(ranidx)
         pw += charArray [rouranidx] 
-    }      
+    } 
+    return pw     
 }
